@@ -1,0 +1,23 @@
+{
+  "as_of_date": null,
+  "masking": true,
+  "allow_text_upload": true,
+  "include_priority_groups": true,
+  "exact_solver_seconds": 3.0,
+  "review_required_for_ai": true,
+  "llm": {
+    "enabled": false,
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key": "",
+    "temperature": 0.1,
+    "timeout": 60,
+    "json_mode": true
+  },
+  "installments": {
+    "enabled": true,
+    "period_days": 30,
+    "periods": 3
+  }
+}

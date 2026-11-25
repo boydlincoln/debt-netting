@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 本地运行数据与密钥
+config/settings.json
+data/*.db
+data/*.db-*
+data/runtime.url
+data/server.log
+data/materials/*
+data/exports/*
+!data/materials/.gitkeep
+!data/exports/.gitkeep
+data/cases/
+data/cases.json

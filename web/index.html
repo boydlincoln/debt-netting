@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三角债智能梳理与净额轧差系统</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="34" height="34"><rect width="32" height="32" rx="9" fill="#0e7c86"/><path d="M9 12a5 5 0 0 1 7 0l2 2M23 20a5 5 0 0 0-7 0l-2-2" stroke="white" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <div class="brand-copy">
+          <strong>债务轧差</strong>
+          <span>三角债智能梳理系统</span>
+        </div>
+      </div>
+      <nav id="nav" class="nav" aria-label="主导航"></nav>
+      <div class="sidebar-foot">
+        <div class="local-pill"><span class="dot"></span> 本地闭环运行</div>
+        <p>规则判定、金额计算与数据存储均在本机完成。</p>
+        <span class="version">V1.0 · OWL/SWRL + 精确求解</span>
+      </div>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <div class="topbar-copy">
+          <h1 id="page-title">工作台</h1>
+          <p id="page-subtitle">三角债智能梳理与净额轧差</p>
+        </div>
+        <div class="topbar-actions" id="topbar-actions"></div>
+      </header>
+      <main id="view" class="view" aria-live="polite"></main>
+    </div>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="assertive"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
